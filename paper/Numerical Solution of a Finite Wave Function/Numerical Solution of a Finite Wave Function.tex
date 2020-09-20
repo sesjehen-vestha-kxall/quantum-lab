@@ -1,0 +1,65 @@
+\documentclass[conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+% The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{physics}
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+\begin{document}
+
+\title{Numerical Solution of a Finite Wave Function*}
+
+\author{
+	\IEEEauthorblockN{1\textsuperscript{st} Miguel Angel Avila Torres}
+	Tunja, Boyacá\\
+	miguel.avilat@usantoto.edu.co
+}
+
+\maketitle
+
+\begin{abstract}
+	This paper describes how to solve the Schrodinger Equation given a valid wave function.
+\end{abstract}
+
+\begin{IEEEkeywords}
+	Wave function, Schrodinger Equation, Root finding, Integration, Interval, Limits
+\end{IEEEkeywords}
+
+\section{Introduction}
+
+\section{Schrodinger Equation}
+The time dependent general Schrödinger equation\cite{1} is
+\begin{gather}
+	i\hbar\frac{d}{dt}\ket{\Psi(t)} = \hat{H}\ket{\Psi(t)}
+\end{gather}
+Where the Hamiltonian $\hat{H}$ is:
+\begin{align}
+	\hat{H} &= \hat{T} + \hat{V}\\
+	\hat{T} &= \frac{\mathbf{\hat{p}}\cdot\mathbf{\hat{p}}}{2m} = \frac{\hat{p}^2}{2m} = -\frac{\hbar^2}{2m}\nabla^2;~~~~~~\mathbf{\hat{p}}=-i\hbar\nabla\\
+	\hat{V} &= V = V(\mathbf{r},t)
+\end{align}
+being $\hat{V}$ the potential energy, $\hat{H}$ the kinetic energy and $\mathbf{\hat{p}}$ the momentum operator. The equation can be written more completely as
+\begin{gather}
+	i\hbar\frac{d}{dt}\ket{\Psi(t)} = \left[ -\frac{\hbar}{2m}\nabla^2 + V(\mathbf{r},t) \right] \ket{\Psi(t)}
+\end{gather}
+Now, if the basis is relative to some point in the space we use\cite{2}
+\begin{gather}
+	i\hbar\frac{\partial}{\partial t}\Psi(\mathbf{r},t) = \left[\frac{-\hbar^2}{2m}\nabla^2 + V(\mathbf{r},t) \right] \Psi(\mathbf{r},t)
+\end{gather}
+where instead of a normal derivative we indicate that $\Psi$ depends on $\mathbf{r}$ (a position in the space) so that there is more meaning in the notation.\footnote{note that equation (5) is in terms of kets while (6) is in scalar terms.}
+
+\section{Approaching Numerical Solutions}
+
+\section{Probability in a Closed Interval}
+
+\begin{thebibliography}{00}
+	\bibitem{1} R. Shankar, ``Principles of Quantum Mechanics''. Springer, 2012.
+	\bibitem{2}	“Schrodinger equation.” http://hyperphysics.phy-astr.gsu.edu/hbase/quantum/Scheq.html (accessed: Sep. 20, 2020).
+\end{thebibliography}
+
+\end{document}
