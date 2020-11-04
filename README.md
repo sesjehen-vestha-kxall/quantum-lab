@@ -1,26 +1,15 @@
 # QuantumLab
-This is my project for the numerical methods course I'm seeing.
+This project consists of five elements:
+- QLab app (Source code folder)
+- Numerical Simulation of the Probability Distribution in a Wave Function.pdf
+- NSPDWF - Presentation.pdf
+- Python Installation Manual - With Libraries.pdf
+- QLab App - Use Manual.pdf
 
-****
+The paper (Numerical Simulation of the Probability Distribution in a Wave Function.pdf) and implementation (QLab app) describes the use of Monte Carlo's Integration method and a Composite Quadrature Rule (also a integration method) to numerically simulate the behavior of the probability distribution in the Wave Function H1s of the Hydrogen atom. The paper also mentions and develops the general integration of the probability distribution in a general wave function.
 
-Author: Miguel Angel Avila Torres Copyright (c) 2020 - All Rights Reserved
+The document 'NSPDWF - Presentation.pdf' is a beamer like presentation which as all the .pdf files in this repository was written in LaTeX.
 
-****
+This project is licensed with MIT License, comply with the Digital Millennium Copyright Act: 17 U.S.C. §§ 101, 104, 104A, 108, 132, 114, 117, 701
 
-This repository includes the following files:
-- Numerical Methods Presentation
-    * It is a beamer presentation made in LaTeX using the cuzbeamer template from zhenjiang university
-- Numerical Simulation of the Probability Distribution in a Wave Function
-    * This is the paper which contains all the theory presented in this project
-- Python Installation Manual - With Libraries
-- QLab App - Use Manual
-
-****
-
-Permission Summary:
-
-**REMEMBER: to give credit to the original author and given the case, the authors
-of subsequent versions.**
-
-This applies for every single file or file portion (whether or not it is source code) 
-of this repository and satisfies The Digital Millennium Copyright Act (DMCA)
+**Remember** to include the MIT Licence and the original creator of this project (all them if derived subsequent times).
