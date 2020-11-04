@@ -61,7 +61,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="graphicator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="h2s_exercise" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="QLab app" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -69,12 +69,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/controller" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/experimental" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/controller/graphicator.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/experimental/h2s_exercise.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -171,10 +171,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.qlab" />
+        <item itemvalue="Python.h2s_exercise" />
         <item itemvalue="Python.quadrature_approximation" />
         <item itemvalue="Python.mainframe" />
         <item itemvalue="Python.monte_carlo_approximation" />
-        <item itemvalue="Python.graphicator" />
       </list>
     </recent_temporary>
   </component>
@@ -207,6 +207,8 @@
       <workItem from="1604183649067" duration="4304000" />
       <workItem from="1604259728631" duration="91000" />
       <workItem from="1604262905361" duration="875000" />
+      <workItem from="1604507252873" duration="4238000" />
+      <workItem from="1604529048550" duration="1951000" />
     </task>
     <servers />
   </component>
