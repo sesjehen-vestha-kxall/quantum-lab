@@ -1,4 +1,9 @@
 # QuantumLab
+
+![](doc/monte-carlo.gif)
+
+![](doc/quadrature.gif)
+
 This project consists of five elements:
 - QLab app (Source code folder)
 - Numerical Simulation of the Probability Distribution in a Wave Function.pdf
