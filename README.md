@@ -2,7 +2,7 @@
 
 <div style="display: flex">
   <div>
-    <img src="doc/monte-carlo.gif" width="300" height="300" style="margin: 0 4rem"/>
+    <img src="doc/monte-carlo.gif" width="300" height="300" style="margin: 0 1rem"/>
   </div>
   <div>
     <img src="doc/quadrature.gif" width="300" height="300" style="margin: 0 auto"/>
