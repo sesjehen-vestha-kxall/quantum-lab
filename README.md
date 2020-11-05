@@ -1,8 +1,8 @@
 # QuantumLab
 
-![](doc/monte-carlo.gif)
+<img src="doc/monte-carlo.gif" width="250" height="250"/>
 
-![](doc/quadrature.gif)
+<img src="doc/quadrature.gif" width="250" height="250"/>
 
 This project consists of five elements:
 - QLab app (Source code folder)
