@@ -1,14 +1,5 @@
 # QuantumLab
 
-<div style="display: flex">
-  <div>
-    <img src="doc/monte-carlo.gif" width="300" height="300" style="margin: 0 1rem"/>
-  </div>
-  <div>
-    <img src="doc/quadrature.gif" width="300" height="300" style="margin: 0 auto"/>
-  </div>
-</div>
-
 This project consists of five elements:
 - QLab app (Source code folder)
 - Numerical Simulation of the Probability Distribution in a Wave Function.pdf
@@ -23,3 +14,13 @@ The document 'NSPDWF - Presentation.pdf' is a beamer like presentation which as 
 This project is licensed with MIT License, comply with the Digital Millennium Copyright Act: 17 U.S.C. §§ 101, 104, 104A, 108, 132, 114, 117, 701
 
 **Remember** to include the MIT Licence and the original creator of this project (all them if derived subsequent times).
+
+## Monte Carlo Integral of H1s
+<div style="text-align:center">
+    <img src="doc/monte-carlo.gif" width="350" height="350" style="margin: 0 1rem"/>
+</div>
+
+## Quadrature Rule of H1s
+<div style="text-align:center">
+    <img src="doc/quadrature.gif" width="350" height="350" style="margin: 0 auto"/>
+</div>
