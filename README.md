@@ -16,11 +16,11 @@ This project is licensed with MIT License, comply with the Digital Millennium Co
 **Remember** to include the MIT Licence and the original creator of this project (all them if derived subsequent times).
 
 ## Monte Carlo Integral of H1s
-<div style="text-align:center">
+<p align="center">
     <img src="doc/monte-carlo.gif" width="350" height="350" style="margin: 0 1rem"/>
-</div>
+</p>
 
 ## Quadrature Rule of H1s
-<div style="text-align:center">
+<p align="center">
     <img src="doc/quadrature.gif" width="350" height="350" style="margin: 0 auto"/>
-</div>
+</p>
