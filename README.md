@@ -1,9 +1,13 @@
 # QuantumLab
 
-
-<img src="doc/monte-carlo.gif" width="500" height="500" style="margin: 0 auto"/>
-
-<img src="doc/quadrature.gif" width="500" height="500" style="margin: 0 auto"/>
+<div style="display: flex">
+  <div>
+    <img src="doc/monte-carlo.gif" width="300" height="300" style="margin: 0 4rem"/>
+  </div>
+  <div>
+    <img src="doc/quadrature.gif" width="300" height="300" style="margin: 0 auto"/>
+  </div>
+</div>
 
 This project consists of five elements:
 - QLab app (Source code folder)
