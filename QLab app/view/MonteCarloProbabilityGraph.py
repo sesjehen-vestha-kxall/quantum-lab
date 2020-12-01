@@ -9,7 +9,6 @@ import numpy as np
 from tkinter import *
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 from matplotlib.figure import Figure
-from matplotlib import pyplot as plt
 
 
 class MonteCarloProbabilityGraph(object):
