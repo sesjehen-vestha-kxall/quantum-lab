@@ -31,6 +31,11 @@ class QuadratureProbabilityGraph(object):
         self.plot_quadrature()
 
     def plot_quadrature(self):
+        """
+        plots the quadrature integral of the absolute squared
+        hydrogen 1s wave function
+        :return: None
+        """
         r_a, r_n, n = [float(e.get()) for e in self.arguments.values()]
         integral_prob = methods.quadrature_rule(f=lambda r: np.abs(hy.hydrogen_1s(r)) ** 2,
                                                 f_second=hy.hydrogen_1s_second, a=r_a, b=r_n, n=int(n))

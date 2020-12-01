@@ -51,6 +51,11 @@ class MonteCarloProbabilityGraph(object):
         return sphere_x, sphere_y, sphere_z
 
     def __plot_monte_carlo_probability(self):
+        """
+        plots the monte carlo integral of the absolute squared
+        hydrogen 1s wave function
+        :return: None
+        """
         r_a, r_b, theta_a, theta_b, phi_a, phi_b, samples = [float(e.get()) for e in self.arguments.values()]
 
         def psi_100_(r_i, theta_i, phi_i):
