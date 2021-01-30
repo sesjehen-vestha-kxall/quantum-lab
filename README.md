@@ -1,4 +1,4 @@
-# QuantumLab
+# quantum-lab
 
 This project consists of five elements:
 - QLab app (Source code folder)
